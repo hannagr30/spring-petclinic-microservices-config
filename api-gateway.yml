@@ -3,6 +3,7 @@ zuul:
   ignoredServices: '*'
   routes:
     vets-service: /vet/**
+    rooms-service: /room/**
     visits-service: /visit/**
     customers-service: /customer/**
     api-gateway: /gateway/**
